@@ -66,8 +66,9 @@ class Assertions:
         elements = Elements(self.driver)
         log_out_assert = elements.log_out_assertion()
         title = log_out_assert.text
-        unittest.TestCase().assertEqual(title, "Swag Labs")
+        unittest.TestCase().assertEqual(title, "Project")
         return self
+
 
 
 class Elements:
